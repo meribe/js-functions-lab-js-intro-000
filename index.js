@@ -2,17 +2,17 @@
 function happyHolidays() {
   return "Happy holidays!"
 }
-function happyHolidaysTo(){
-  var name = "Merve"
-  return `Happy holidays,  $(name)!`
+function happyHolidaysTo(name){
+  var name = "You"
+  return `Happy holidays, $(name)!`
 }
 function happyCustomHolidayTo() {
-  var holiday= "halloween"
-  var name= "merve"
+  var holiday= "Independence Day"
+  var name= "You"
   return `Happy $(holiday),  $(name)!`
 }
 function holidayCountdown() {
-  var days="16"
-  var holiday= "halloween"
+  var days="20"
+  var holiday= "Mother's Day!"
   return `It's ${days} days until ${holiday}!`
 }
