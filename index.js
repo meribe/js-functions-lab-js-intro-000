@@ -3,16 +3,16 @@ function happyHolidays() {
   return "Happy holidays!"
 }
 function happyHolidaysTo(name){
-  var name= "you"
+  var name= ""
   console.log( `Happy holidays, ${name}!`)
 }
 function happyCustomHolidayTo(holiday,name) {
-  var holiday= "Independence Day"
-  var name= "you"
+  var holiday= ""
+  var name= ""
   return `Happy ${holiday}, ${name}!`
 }
 function holidayCountdown(holiday,days) {
-  var days="20"
-  var holiday= "Mother\'s Day"
+  var days=""
+  var holiday= ""
   return `It\'s ${days} days until ${holiday}!`
 }
